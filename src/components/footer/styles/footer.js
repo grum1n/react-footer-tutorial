@@ -1,16 +1,27 @@
 import styled from 'styled-components';
 
-export const Conayainer = styled.div`
+export const Container = styled.div`
    padding: 80px 60px;
-   background: radial-gradient(circle, rgba(92, 39, 251, 1) 0%, rgba(112,71,247, 1) 100%)
+   background: radial-gradient(circle, rgba(92, 39, 251, 1) 0%, rgba(112,71,247, 1) 100%);
 `
 
-export const Conayainer = styled.div``
+export const Wrapper = styled.div`
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   max-width: 1000px;
+   margin: 0 auto;
+`
 
-export const Conayainer = styled.div``
+export const Column = styled.div`
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 60px;
+`
 
-export const Conayainer = styled.div``
+export const Row = styled.div``
 
-export const Conayainer = styled.div``
+export const Link = styled.div``
 
-export const Conayainer = styled.div``
+export const Title = styled.div``
